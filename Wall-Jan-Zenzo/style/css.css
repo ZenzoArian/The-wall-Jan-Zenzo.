@@ -1,0 +1,236 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url('wallBackground.png');
+  background-size: 20em;
+  background-color: #eef4ff;
+  text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================================================================================================= */
+.TotalImageContent {
+  text-align: center;
+  background-color: #eef4ff;
+  float: left;
+  width: auto;
+  min-width: 30em;
+  min-height: 35em;
+  max-width: 30em;
+  max-height: 35em;
+  height: auto;
+  padding: 1em 1em 1em 1em;
+  margin: .5em .5em .5em .5em;
+  border-radius: 10px;
+  transition: 0.3s cubic-bezier(0, 1.1, .1, 1.2);
+  border: 5px solid #495e76;
+
+}
+
+.ImageText {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.insideTekst{
+  font-size: .8em;
+}
+
+.TotalImageContent:hover {
+  transform: scale(1.04, 1.04);
+}
+
+.sideSpace {
+  margin: 4em auto;
+  width: 90%;
+  padding-left: 15%;
+}
+
+
+
+
+
+/* ================================================================================================= */
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #eef4ff;
+  padding: 20px 10px;
+  box-shadow: 0px 2px 5px grey;
+  transition: 1s;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #2f3751;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header:hover {
+  background-color: rgba(250,250,250);
+  color: black;
+  transition: 1s;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+
+
+.logoImageMenu{
+  width: 3em;
+  float: left;
+}
+/* =================================================================================================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1189 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.snip1189 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1189 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1em;
+  padding: 0;
+}
+.snip1189 a {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  color: gray;
+  position: relative;
+  text-decoration: none;
+}
+.snip1189 a:before,
+.snip1189 a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.snip1189 a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #2f3751;
+  border-top: 3px solid #2f3751;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+.snip1189 a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #2f3751;
+  border-bottom: 3px solid #2f3751;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+  /* c0392b */
+}
+.snip1189 a:hover,
+.snip1189 .current a {
+  color: black;
+}
+.snip1189 a:hover:before,
+.snip1189 .current a:before,
+.snip1189 a:hover:after,
+.snip1189 .current a:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+/* ================================================================================================================================================== */
+.whiteBanner {
+  margin-top: .04em;
+  display: block;
+  background-color: #eef4ff;
+  padding: 0;
+  height: auto;
+}
+
+.BannerInfoBorder {
+  text-align: center;
+  border-style: solid;
+  width: 15em;
+  height: 6em;
+  padding-top: 3em;
+  float: left;
+  /* margin: 1em; */
+  border-width: 1px;
+  margin-left: 6.6%;
+  margin-right: 6.6%;
+}
+
+.AroundBannerInfo {
+  margin: 4em auto;
+  width: 80%;
+}
+
+.bannerImg{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.welcomeTekst{
+  text-align: center;
+  margin: 0 auto;
+  color: #2f3751;
+  font-size: 3em;
+}
+
+
+/* ================================================================================================================================================== */
+
+
+.OtherSiteBlock{
+  display: inline-block;
+  /* font-size: 1.57em; */
+  font-weight: bold;
+  border: 5px solid #2f3751;
+  background: #eef4ff;
+  height: auto;
+  width: 10em;
+  border-radius: 30px;
+  padding: 2em 2em;
+  z-index: 100;
+  margin-top: 2.5em;
+}
+
+
+
+/* ================================================================================================================================================== */
